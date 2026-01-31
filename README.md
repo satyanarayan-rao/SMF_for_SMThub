@@ -66,7 +66,7 @@ genome	fasta_path
 mm10	ref_genome/mm10/mm10.fa
 ```
 
-### Step: Run the Golden Command to generate bigBed file
+### Step 5: Run the Golden Command to generate bigBed file
 
 ```
 snakemake -np --snakefile nome_seq_data_to_smf_bigbed.smk suppressed_merged/suppressed_merged_mouse_e16_to_mm10_with_wobble_1_min_fp_10_and_mvec.bb --configfile configs/config.yaml -j4
