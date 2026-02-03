@@ -15,7 +15,7 @@ mamba install -c bioconda snakemake=7.26 scanf trim-galore bedtools bismark samt
 
 User has to perform a minimal setup before invoking the **Golden Command** that will generate the bigBed file.
 
-We demonstrate an example of such setup using one NOMe-seq run from Mouse E16 Primordial Germ Cells stage data (PRJNA ID: [PRJNA316148](https://www.ebi.ac.uk/ena/browser/view/PRJNA316148)). The paied-end read files we use here are [SRR3288084_1.fastq.gz](ftp.sra.ebi.ac.uk/vol1/fastq/SRR328/004/SRR3288084/SRR3288084_1.fastq.gz) and [SRR3288084_2.fastq.gz](ftp.sra.ebi.ac.uk/vol1/fastq/SRR328/004/SRR3288084/SRR3288084_2.fastq.gz). 
+We demonstrate an example of such setup using one NOMe-seq run from Mouse E16 Primordial Germ Cells stage data (PRJNA ID: [PRJNA316148](https://www.ebi.ac.uk/ena/browser/view/PRJNA316148)). The paied-end read files we use here are [SRR3288084_1.fastq.gz](ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR328/004/SRR3288084/SRR3288084_1.fastq.gz) and [SRR3288084_2.fastq.gz](ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR328/004/SRR3288084/SRR3288084_2.fastq.gz). 
 
 Please follow the steps below: 
 
